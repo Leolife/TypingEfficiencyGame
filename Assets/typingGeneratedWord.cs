@@ -16,6 +16,12 @@ public class typingGeneratedWord : MonoBehaviour
     private string remainingLetters = string.Empty;
     private string wordToType = "brother man";
 
+
+    private void pickWordToType()
+    {
+
+    }
+
     private void Start()
     {
         setWordToType();
