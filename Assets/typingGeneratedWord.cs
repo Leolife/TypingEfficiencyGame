@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Net;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEditor.PackageManager;
 using UnityEditor.ShaderKeywordFilter;
@@ -11,15 +12,18 @@ using UnityEngine.UI;
 
 public class typingGeneratedWord : MonoBehaviour
 {
+    Dictionary<int, string> wordList = new Dictionary<int, string>();
+
     public Text shownWord = null;
 
     private string remainingLetters = string.Empty;
+    //private string wordToType = wordList;
     private string wordToType = "brother man";
 
 
     private void pickWordToType()
     {
-
+        //function to randomly select from the wordList dictionary
     }
 
     private void Start()
