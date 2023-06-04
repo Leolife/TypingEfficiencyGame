@@ -14,20 +14,23 @@ public class typingGeneratedWord : MonoBehaviour
 {
     Dictionary<int, string> wordList = new Dictionary<int, string>();
 
+
     public Text shownWord = null;
 
     private string remainingLetters = string.Empty;
-    //private string wordToType = wordList;
-    private string wordToType = "brother man";
+    private string wordToType;
 
 
     private void pickWordToType()
     {
         //function to randomly select from the wordList dictionary
+        wordList.Add(0, "brother man");
+        wordToType = wordList[0];
     }
 
     private void Start()
     {
+        pickWordToType();
         setWordToType();
     }
 
