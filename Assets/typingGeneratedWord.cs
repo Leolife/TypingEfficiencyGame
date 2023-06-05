@@ -38,7 +38,7 @@ public class typingGeneratedWord : MonoBehaviour
 
         streamReader.Close();
 
-        for (int i = 0; i < 84; i++)
+        for (int i = 0; i < words.Length; i++)
         {
             wordList.Add(i, words[i]);
         }
