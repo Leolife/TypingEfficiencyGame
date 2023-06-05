@@ -52,7 +52,8 @@ public class typingGeneratedWord : MonoBehaviour
     {
         System.Random random = new System.Random();
         int rand = random.Next(0, 84);
-        setRemainingLetters(wordList[rand]);
+        wordToType = wordList[rand];
+        setRemainingLetters(wordToType);
     }
 
     private void setRemainingLetters(string newString)
@@ -60,7 +61,6 @@ public class typingGeneratedWord : MonoBehaviour
         remainingLetters = newString;
         shownWord.text = remainingLetters;
     }
-
     private void Update()
     {
         checkInput();
@@ -89,6 +89,10 @@ public class typingGeneratedWord : MonoBehaviour
             {
                 setWordToType();
             }
+        }
+        else //resets word if press wrong key
+        {
+            setRemainingLetters(wordToType);
         }
     }
 
