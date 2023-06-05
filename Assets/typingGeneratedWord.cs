@@ -31,16 +31,15 @@ public class typingGeneratedWord : MonoBehaviour
 
         for (int i = 0; i < 84; i++)
         {
-            words[i] = streamReader.ReadLine();
+            words[i] = streamReader.ReadLine().ToLower();
         }
+
+        streamReader.Close();
 
         for (int i = 0; i < 84; i++)
         {
             wordList.Add(i, words[i]);
         }
-        System.Random random = new System.Random();
-        int rand = random.Next(0, 84);
-        wordToType = wordList[rand];
     }
 
     private void Start()
