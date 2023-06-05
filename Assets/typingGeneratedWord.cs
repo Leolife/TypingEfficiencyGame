@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.IO;
 using System.Net;
 using TMPro;
 using Unity.VisualScripting;
@@ -24,8 +25,22 @@ public class typingGeneratedWord : MonoBehaviour
     private void pickWordToType()
     {
         //function to randomly select from the wordList dictionary
-        wordList.Add(0, "brother man");
-        wordToType = wordList[0];
+        string[] words = new string[84];
+
+        StreamReader streamReader = new StreamReader(@"DifficultWords.txt");
+
+        for (int i = 0; i < 84; i++)
+        {
+            words[i] = streamReader.ReadLine();
+        }
+
+        for (int i = 0; i < 84; i++)
+        {
+            wordList.Add(i, words[i]);
+        }
+        System.Random random = new System.Random();
+        int rand = random.Next(0, 84);
+        wordToType = wordList[rand];
     }
 
     private void Start()
@@ -36,7 +51,9 @@ public class typingGeneratedWord : MonoBehaviour
 
     private void setWordToType()
     {
-        setRemainingLetters(wordToType);
+        System.Random random = new System.Random();
+        int rand = random.Next(0, 84);
+        setRemainingLetters(wordList[rand]);
     }
 
     private void setRemainingLetters(string newString)
