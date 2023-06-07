@@ -1,5 +1,5 @@
 # TypingEfficiencyGame
-This is a typing game that I made with Unity.  It is meant to improve your typing skills with difficult words.  The game works by showing a word on the screen that you must type.  As you type the word, each letter you type disappears, showing only what is left for you to type.
+This is a typing game that I am making with Unity.  It is meant to improve your typing skills with difficult words.  The game works by showing a word on the screen that you must type.  As you type the word, each letter you type disappears, showing only what is left for you to type.
 
 Basic explanation of how the code works within the game:
 
