@@ -16,9 +16,11 @@ public class typingGeneratedWord : MonoBehaviour
 
 
     public Text shownWord = null;
+    public Text shownCount = null;
 
     private string remainingLetters = string.Empty;
     private string wordToType;
+    private int wordCount = 0;
 
 
     private void pickWordToType()
@@ -90,6 +92,8 @@ public class typingGeneratedWord : MonoBehaviour
 
             if (isWordComplete())
             {
+                wordCount++;
+                shownCount.text = wordCount.ToString();
                 setWordToType();
             }
         }
