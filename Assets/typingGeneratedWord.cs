@@ -119,4 +119,10 @@ public class typingGeneratedWord : MonoBehaviour
         return remainingLetters.Length == 0;
     }
 
+    public void resetGame()
+    {
+        wordCount = 0;
+        shownCount.text = "0";
+        setWordToType();
+    }
 }

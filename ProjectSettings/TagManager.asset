@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - homeScreen
+  - typingManager
+  - screenScript
   layers:
   - Default
   - TransparentFX
