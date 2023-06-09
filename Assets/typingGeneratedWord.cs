@@ -125,4 +125,9 @@ public class typingGeneratedWord : MonoBehaviour
         shownCount.text = "0";
         setWordToType();
     }
+
+    public string getWordCount()
+    {
+        return wordCount.ToString();
+    }
 }
