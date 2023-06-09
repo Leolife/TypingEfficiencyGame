@@ -11,12 +11,6 @@ public class screenManager : MonoBehaviour
     {
         Time.timeScale = 0f;
     }
-
-    void Update()
-    {
-        
-    }
-
     public void startGame()
     {
         homeScreen.SetActive(false);
