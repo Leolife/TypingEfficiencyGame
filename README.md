@@ -15,4 +15,4 @@ Pause Menu:
 ![image](https://github.com/Leolife/TypingEfficiencyGame/assets/95724102/2dc65561-e3cc-450a-ba82-3b013ba5dbf9)
 
 End Screen:
-![image](https://github.com/Leolife/TypingEfficiencyGame/assets/95724102/d4a1633f-5e5a-40b1-9dc4-d6fba2405f77)
+![image](https://github.com/Leolife/TypingEfficiencyGame/assets/95724102/2f272502-4df8-4015-afdd-de91ee3a127e)
