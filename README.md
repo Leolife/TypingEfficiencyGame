@@ -10,13 +10,13 @@ I have a list of difficult words in a text file.  Within my code, the text file 
 
 ## Game Screenshots
 Home Screen:
-![image](https://github.com/Leolife/TypingEfficiencyGame/assets/95724102/fe9fe11c-3915-4a51-ba24-6a88ccf23cef)
+![image](https://github.com/Leolife/TypingEfficiencyGame/assets/95724102/45889a1a-ccef-464c-9aeb-5a99b2ec4c4f)
 
 During the game:
-![image](https://github.com/Leolife/TypingEfficiencyGame/assets/95724102/43df1707-5247-4950-b941-fc61b9ec3528)
+![image](https://github.com/Leolife/TypingEfficiencyGame/assets/95724102/2f2fe36e-4252-48ee-aa58-8d1335c40be0)
 
 Pause Menu:
-![image](https://github.com/Leolife/TypingEfficiencyGame/assets/95724102/2dc65561-e3cc-450a-ba82-3b013ba5dbf9)
+![image](https://github.com/Leolife/TypingEfficiencyGame/assets/95724102/4edeb421-8911-47f9-ad88-d972d47f81bb)
 
 End Screen:
-![image](https://github.com/Leolife/TypingEfficiencyGame/assets/95724102/2f272502-4df8-4015-afdd-de91ee3a127e)
+![image](https://github.com/Leolife/TypingEfficiencyGame/assets/95724102/3c58dce7-2b81-416b-9081-ca7606904384)
